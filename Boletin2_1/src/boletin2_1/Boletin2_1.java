@@ -39,7 +39,7 @@ public class Boletin2_1 {
         } while (validar == false);
 
         System.out.println("****************************************************\n"
-                         + "A sua compra aplicouselle un desconto do: " + pvpPagado * 100 / pvpReal + " %.");
+                         + "A sua compra aplicouselle un desconto do: " + (pvpReal - pvpPagado)/pvpReal *100 + " %.");
 
     }
 
